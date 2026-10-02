@@ -50,13 +50,6 @@ REMOTE_DIR=/tmp/screenshots
 | `SSH_PASSWORD` | No | Contraseña. Si no la defines y no hay llave, el script la pide por teclado |
 | `REMOTE_DIR` | No | Carpeta remota donde se guardan las capturas (por defecto `/tmp/screenshots`) |
 
-> **Seguridad:** nunca subas el `.env` a git. Agrega esto a tu `.gitignore`:
->
-> ```gitignore
-> .env
-> .venv/
-> ```
-
 ## Uso
 
 1. Copia una imagen al portapapeles (`Win+Shift+S` o cualquier captura).
